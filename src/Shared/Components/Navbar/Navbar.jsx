@@ -118,7 +118,11 @@ const Navbar = () => {
         </ul>
 
         <div className="d-flex align-items-center gap-2">
-          <a href="#footer"><button className="btn btn-primary">{t("navbar.contact_us")}</button></a>
+          <a href="#footer">
+            <button className="btn btn-primary">
+              {t("navbar.contact_us")}
+            </button>
+          </a>
 
           <div className="desktop-language-dropdown">
             <button

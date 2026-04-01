@@ -1,15 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from "./Shared/Components/Navbar/Navbar";
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
-import Hero from "./Shared/Components/Hero/Hero";
-import About from "./Shared/Components/About/About";
-import Services from "./Shared/Components/Services/Services";
+import {useEffect } from "react";
 import Footer from "./Shared/Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Layouts from "./Shared/Components/Layouts/Layouts";
