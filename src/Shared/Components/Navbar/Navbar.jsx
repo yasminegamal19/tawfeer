@@ -209,10 +209,10 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 className="nav-link fw-medium"
-                to="/policy"
+                to="/privacy"
                 onClick={closeMenu}
               >
-                {t("navbar.policy")}
+                {t("navbar.privacy")}
               </Link>
             </li>
 
