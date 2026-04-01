@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const Footer = () => {
 
-  const {i18n} = useTranslation();
+  const {t,i18n} = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -93,26 +93,25 @@ const Footer = () => {
             </div>
 
             <div className="col-xl-4 col-12 text-white-50 footer-links">
-              <h5 className="text-uppercase pb-3">روابط سريعة</h5>
+              <h5 className="text-uppercase pb-3">{t("footer.quickLinks")}</h5>
 
               <a href="#about" onClick={(e) => handleFooterClick(e, "about")}>
-                من نحن
+                {t("footer.about")}
               </a>
 
               <a
                 href="#services"
                 onClick={(e) => handleFooterClick(e, "services")}
               >
-                الخدمات
+                {t("footer.services")}
               </a>
 
-              <Link to="/terms">الشروط والأحكام</Link>
+              <Link to="/terms">{t("footer.terms")}</Link>
 
-              <Link to="/privacy">سياسة الخصوصية</Link>
+              <Link to="/privacy">{t("footer.privacy")}</Link>
             </div>
-
             <div className="col-xl-4 col-12 text-white">
-              <h5 className="text-uppercase">تواصل معنا</h5>
+              <h5 className="text-uppercase">{t("footer.contact")}</h5>
 
               <div className="contact d-flex mb-2 gap-3">
                 <i className="bi bi-telephone-fill"></i>

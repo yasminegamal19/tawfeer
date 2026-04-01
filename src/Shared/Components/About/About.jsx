@@ -1,34 +1,35 @@
 import { memo } from "react";
+import { useTranslation } from "react-i18next";
 import "./About.modules.css";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="about py-5" id="about">
       <div className="container">
-        <h2 className="mb-3 title">من نحن</h2>
+        <h2 className="mb-3 title">{t("about.title")}</h2>
 
         <div className="row align-items-center">
           <div className="col-lg-6 col-12">
             <h1 className="mb-3 brand">
-              توفير <span>ماركت</span>
+              {t("about.brand")} <span>{t("about.brandSpan")}</span>
             </h1>
-            <p className="desc">
-              توفير ماركت هو ماركت متكامل لبيع جميع المنتجات الغذائية والمنزلية
-              بأفضل الأسعار، مع عروض مستمرة تناسب كل أفراد الأسرة.
-            </p>
+
+            <p className="desc">{t("about.description")}</p>
 
             <ul className="features">
               <li>
-                <span className="icon"></span> منتجات عالية الجودة
+                <span className="icon"></span> {t("about.feature1")}
               </li>
               <li>
-                <span className="icon"></span> أسعار مناسبة للجميع
+                <span className="icon"></span> {t("about.feature2")}
               </li>
               <li>
-                <span className="icon"></span> عروض وتخفيضات مستمرة
+                <span className="icon"></span> {t("about.feature3")}
               </li>
               <li>
-                <span className="icon"></span> تجربة تسوق سهلة وسريعة
+                <span className="icon"></span> {t("about.feature4")}
               </li>
             </ul>
           </div>
