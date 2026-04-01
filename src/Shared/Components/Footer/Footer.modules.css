@@ -1,0 +1,70 @@
+.footer {
+    background-color: var(--main-color);
+}
+.footer img {
+    width: 170px;
+    height: auto;
+}
+
+.footer .btn {
+    color: #eee;
+    background-color: #406AB3;
+    padding: 8px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer .location i,
+.footer .call-center i {
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+.footer .location h6 {
+    font-size: 14px;
+}
+
+.footer .location span {
+    font-size: 15px;
+}
+
+.footer .links i {
+    color: #eee;
+    font-size: 18px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #eee;
+}
+.footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.copy-right {
+    background-color: #000;
+}
+
+[dir="rtl"] .footer .location i,
+[dir="rtl"] .footer .call-center i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+[dir="rtl"] .footer h6 {
+    text-align: right;
+}

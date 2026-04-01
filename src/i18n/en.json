@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "terms": "Terms and Conditions",
+    "privacy": " Privacy Policy",
+    "language_ar": "Arabic",
+    "language_en": "English",
+    "contact_us": "Contact Us"
+  },
+
+  "hero": {
+    "title": "Tawfeer Market!",
+    "desc1": "Enjoy a unique shopping experience combining high quality and real savings for your home budget.",
+    "desc2": "Download Tawfeer Market app now and enjoy exclusive offers for app users and track your order step by step."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "At Tawfeer Market, we provide a complete and easy shopping experience for all your daily needs",
+
+    "items": {
+      "allProducts": {
+        "title": "All Products",
+        "desc": "We provide all household needs including food, cleaning, and daily essentials."
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "desc": "We deliver your order quickly and safely to your doorstep."
+      },
+      "pricing": {
+        "title": "Best Prices",
+        "desc": "High quality products at prices that fit all budgets."
+      },
+      "offers": {
+        "title": "Continuous Offers",
+        "desc": "Daily and weekly discounts on various products all the time."
+      },
+      "order": {
+        "title": "Online Ordering",
+        "desc": "Easily order everything you need through website or app."
+      },
+      "quality": {
+        "title": "Guaranteed Quality",
+        "desc": "We carefully select the best products to ensure customer satisfaction."
+      }
+    }
+  },
+  "privacy": {
+    "last_updated": "Last updated"
+  },
+  "terms": {
+    "last_updated": "Last updated"
+  }
+}
