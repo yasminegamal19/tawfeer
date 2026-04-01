@@ -23,7 +23,7 @@ const Navbar = () => {
   useEffect(() => {
     const savedLang = localStorage.getItem("lang");
     if (savedLang) i18n.changeLanguage(savedLang);
-  }, []);
+  }, [i18n]);
 
   const handleAnchorClick = (e, id) => {
     e.preventDefault();

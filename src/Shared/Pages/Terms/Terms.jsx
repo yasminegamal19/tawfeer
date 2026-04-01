@@ -1,7 +1,6 @@
 import { memo } from "react";
 import axios from "axios";
 import Loader from "../../Components/Loader/Loader";
-import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import './Terms.modules.css';
 import { useTranslation } from "react-i18next";

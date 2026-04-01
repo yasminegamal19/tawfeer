@@ -66,15 +66,27 @@ const Footer = () => {
               <p className="mb-4">{settings?.desc}</p>
 
               <div className="links d-flex pb-3 gap-3">
-                <a href={settings?.facebook} target="_blank">
+                <a
+                  href={settings?.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="bi bi-facebook"></i>
                 </a>
 
-                <a href={settings?.whatsapp} target="_blank">
+                <a
+                  href={settings?.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="bi bi-whatsapp"></i>
                 </a>
 
-                <a href={settings?.instagram} target="_blank">
+                <a
+                  href={settings?.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>
@@ -94,15 +106,9 @@ const Footer = () => {
                 الخدمات
               </a>
 
-              <Link to="/terms" >
-                الشروط والأحكام
-              </Link>
+              <Link to="/terms">الشروط والأحكام</Link>
 
-              <Link
-                to="/privacy"
-              >
-                سياسة الخصوصية
-              </Link>
+              <Link to="/privacy">سياسة الخصوصية</Link>
             </div>
 
             <div className="col-xl-4 col-12 text-white">
