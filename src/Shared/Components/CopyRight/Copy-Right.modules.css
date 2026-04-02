@@ -1,0 +1,9 @@
+.copy-right{
+    background-color: #000;
+}
+.container{
+    max-width: 1240px;
+}
+.copy-right .icons{
+    text-align: right;
+}

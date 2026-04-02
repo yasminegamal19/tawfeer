@@ -11,7 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import Layouts from "./Shared/Components/Layouts/Layouts";
 import Terms from "./Shared/Pages/Terms/Terms";
 import Privacy from "./Shared/Pages/Privacy/Privacy";
-
+import CopyRight from './Shared/Components/CopyRight/CopyRight'
 function App() {
   const { t, i18n } = useTranslation();
 
@@ -34,6 +34,7 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <Footer />
+      <CopyRight />
     </div>
   );
 }
